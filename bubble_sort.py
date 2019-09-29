@@ -10,7 +10,7 @@ def bubble_sort(arr):
     and continue this till the array sorted
 
     Time complexity for this bubble sort is O(n^2)
-    
+
     """
     is_sorted = False
     while not is_sorted:
@@ -34,4 +34,4 @@ array = list(range(array_size))
 random.shuffle(array)
 bubble_sort(array)
 
-assert array == list(range(array_size)), "Bubble sort is working"
+assert array == list(range(array_size)), "Bubble sort is not  working"
